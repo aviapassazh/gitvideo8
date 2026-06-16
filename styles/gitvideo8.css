@@ -1,0 +1,101 @@
+@font-face { font-family: "DSGoose"; src: url("DSGoose.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "Jolly"; src: url("Jolly.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "VeraCrouz"; src: url("VeraCrouz.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+*{ margin: 0; padding: 0; 
+box-sizing: border-box;
+overflow: hidden;
+}
+body { 
+display: flex; 
+justify-content: center;
+align-items: center;
+width: 100%;
+min-height: 100vh;
+background-image: radial-gradient(circle, #8d8608 0%, #055160 100%);
+}
+#zapoln{ color: rgb(116, 237, 65); z-index: 10;
+font-family: "DSGoose"; 
+}
+.smlsz{font-size: 14px;}
+.variable{cursor: pointer;}
+.variable:hover{color: aqua;}
+p{font-size: 25px;
+text-indent: 1.5rem;
+}
+.container-fluid{ display: block;
+padding-top: .3rem;
+}
+.container-fluid .main-video{ 
+display: none;
+}
+.container-fluid .main-video video{
+width: 100%;
+}    
+.container-fluid .video-list .vid video{
+margin-right: 3px;
+border: 1px dashed #b90d0d;
+border-radius: 15px;
+width: 90px;
+height: 60px;
+}
+.container-fluid .video-list .vid:hover{
+color: #eee; cursor: pointer;
+}
+.container-fluid .video-list .vid:active{
+color: #2980b9;
+}
+a{text-decoration: none;}
+.btn{color: rgb(198, 230, 244); margin-bottom: 5px;}
+.btn:hover{color: greenyellow;}
+.hide{display: none; }
+.podps{
+font-size: 27px;
+font-family: 'VeraCrouz';
+letter-spacing: 4px;
+animation: 25s in-out infinite;
+}
+@keyframes in-out {
+    0% { color: lawngreen; letter-spacing: 4px; }
+    10% { color: rgb(122, 148, 243) }
+    20% { color: lightblue }
+    30% { color: orangered }
+    40% { color: lightgray }
+    50% { color: blue; letter-spacing: 8px; }
+    60% { color: lightgray }
+    70% { color: yellow }
+    80% { color: lightblue }
+    90% { color: orange }
+    100% { color: lawngreen; letter-spacing: 4px; }
+}
+.videlk{color: greenyellow;}  
+main{margin: .6rem;}   
+.mx-auto{
+color: wheat;
+position: absolute; 
+bottom: 0;
+align-items: center;
+justify-content: center;
+align-self: stretch;
+}
+#myNav1, #myNav2, #myNav3{background-color: rgb(10, 1, 36);
+color: wheat;
+font-family: "Jolly";
+z-index: 2;
+}
+.overlay-content p{margin-right: 3rem; font-size: 30px;}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 40px;
+}
+img:hover { box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+.shir{ width: 250px;}
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
