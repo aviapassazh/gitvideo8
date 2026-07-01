@@ -33,3 +33,12 @@ function closeNav4() {
     document.getElementById(
         "myNav4").style.height = "0%";
 }
+
+function openNav5() {
+    document.getElementById(
+        "myNav5").style.height = "100%";
+}
+function closeNav5() {
+    document.getElementById(
+        "myNav5").style.height = "0%";
+}
